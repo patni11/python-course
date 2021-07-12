@@ -58,8 +58,11 @@ for i in x:
             print(i * j)
 '''
 
+# break and else
+'''
 x = [1, 2, 3, 4, 5, 6]
 for each in x:
     print(each)
 else:
     print("we do not have break")
+'''
