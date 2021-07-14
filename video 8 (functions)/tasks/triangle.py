@@ -14,4 +14,5 @@ def triangle(steps=5):
             print(j+1, end=" ")
 
 
-triangle(steps=100)
+steps = int(input("Please enter the number of steps for triangle"))
+triangle(steps=steps)

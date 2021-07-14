@@ -1,10 +1,10 @@
 def get_age():
     try:
-        age = int(input("Enter your age"))
+        age = int(input("Enter your age  "))
         return age
     except:
-        print("age must be a whole number, please try again")
-        get_age()
+        print("age must be a whole number, please try again  ")
+        return get_age()
 
 
 def concatenate(first_name, last_name, age):
